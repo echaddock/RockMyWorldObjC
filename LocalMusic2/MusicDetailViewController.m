@@ -1,13 +1,13 @@
 //
 //  MusicDetailViewController.m
-//  LocalMusic2
+//  LocalMusic
 //
 //  Created by Elizabeth Chaddock on 4/8/13.
 //  Copyright (c) 2013 Elizabeth Chaddock. All rights reserved.
 //
 
 #import "MusicDetailViewController.h"
-
+#import "LocalEvent.h"
 @interface MusicDetailViewController ()
 - (void)configureView;
 @end
@@ -16,12 +16,12 @@
 
 #pragma mark - Managing the detail item
 
-- (void)setDetailItem:(id)newDetailItem
+- (void)setEvent:(LocalEvent *) newEvent
 {
-    if (_detailItem != newDetailItem) {
-        _detailItem = newDetailItem;
+    if(_event != newEvent) {
+        _event = newEvent;
         
-        // Update the view.
+        //Update the view
         [self configureView];
     }
 }
@@ -29,23 +29,34 @@
 - (void)configureView
 {
     // Update the user interface for the detail item.
-
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+    LocalEvent *theEvent = self.event;
+    
+    static NSDateFormatter *formatter = nil;
+    if (formatter == nil) {
+        formatter = [[NSDateFormatter alloc] init];
+        [formatter setDateStyle:NSDateFormatterMediumStyle];
     }
+    if (theEvent) {
+        self.bandNameLabel.text = theEvent.bandName;
+        self.locationLabel.text = theEvent.location;
+        
+        static NSDateFormatter *formatter = nil;
+        
+        formatter = [[NSDateFormatter alloc] init];
+        [formatter setDateFormat:@"MMM d, HH:mm"];        
+        NSDate *date = (NSDate *)theEvent.date;
+        NSString *string = [NSDateFormatter localizedStringFromDate: date dateStyle: NSDateFormatterMediumStyle timeStyle: NSDateFormatterShortStyle];
+        
+        self.dateLabel.text = string;
+    }
+    
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

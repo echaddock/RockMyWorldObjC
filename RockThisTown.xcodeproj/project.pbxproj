@@ -19,17 +19,21 @@
 		A6206AC31713DD38009E8292 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6206AC11713DD38009E8292 /* MainStoryboard.storyboard */; };
 		A6206AC61713DD38009E8292 /* MusicMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6206AC51713DD38009E8292 /* MusicMasterViewController.m */; };
 		A6206AC91713DD38009E8292 /* MusicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6206AC81713DD38009E8292 /* MusicDetailViewController.m */; };
+		A6206AD11713DFF0009E8292 /* MusicDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6206AD01713DFF0009E8292 /* MusicDataController.m */; };
+		A6206AD41713E094009E8292 /* LocalEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A6206AD31713E094009E8292 /* LocalEvent.m */; };
+		A6837B68172F0AD5009B27A7 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6837B67172F0AD5009B27A7 /* HomePageViewController.m */; };
+		A6837B6C1730A24F009B27A7 /* concertThin.png in Resources */ = {isa = PBXBuildFile; fileRef = A6837B6B1730A24F009B27A7 /* concertThin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A6206AA61713DD37009E8292 /* LocalMusic2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalMusic2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6206AA61713DD37009E8292 /* RockThisTown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockThisTown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6206AA91713DD37009E8292 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A6206AAB1713DD37009E8292 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6206AAD1713DD37009E8292 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A6206AB11713DD37009E8292 /* LocalMusic2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalMusic2-Info.plist"; sourceTree = "<group>"; };
+		A6206AB11713DD37009E8292 /* RockThisTown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RockThisTown-Info.plist"; sourceTree = "<group>"; };
 		A6206AB31713DD37009E8292 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A6206AB51713DD37009E8292 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A6206AB71713DD37009E8292 /* LocalMusic2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalMusic2-Prefix.pch"; sourceTree = "<group>"; };
+		A6206AB71713DD37009E8292 /* RockThisTown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RockThisTown-Prefix.pch"; sourceTree = "<group>"; };
 		A6206AB81713DD37009E8292 /* MusicAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicAppDelegate.h; sourceTree = "<group>"; };
 		A6206AB91713DD37009E8292 /* MusicAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicAppDelegate.m; sourceTree = "<group>"; };
 		A6206ABB1713DD37009E8292 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -40,6 +44,13 @@
 		A6206AC51713DD38009E8292 /* MusicMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicMasterViewController.m; sourceTree = "<group>"; };
 		A6206AC71713DD38009E8292 /* MusicDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicDetailViewController.h; sourceTree = "<group>"; };
 		A6206AC81713DD38009E8292 /* MusicDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicDetailViewController.m; sourceTree = "<group>"; };
+		A6206ACF1713DFF0009E8292 /* MusicDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDataController.h; sourceTree = "<group>"; };
+		A6206AD01713DFF0009E8292 /* MusicDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDataController.m; sourceTree = "<group>"; };
+		A6206AD21713E094009E8292 /* LocalEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalEvent.h; sourceTree = "<group>"; };
+		A6206AD31713E094009E8292 /* LocalEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalEvent.m; sourceTree = "<group>"; };
+		A6837B66172F0AD5009B27A7 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		A6837B67172F0AD5009B27A7 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		A6837B6B1730A24F009B27A7 /* concertThin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = concertThin.png; path = ../../concertThin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +70,7 @@
 		A6206A9D1713DD37009E8292 = {
 			isa = PBXGroup;
 			children = (
-				A6206AAF1713DD37009E8292 /* LocalMusic2 */,
+				A6206AAF1713DD37009E8292 /* RockThisTown */,
 				A6206AA81713DD37009E8292 /* Frameworks */,
 				A6206AA71713DD37009E8292 /* Products */,
 			);
@@ -68,7 +79,7 @@
 		A6206AA71713DD37009E8292 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6206AA61713DD37009E8292 /* LocalMusic2.app */,
+				A6206AA61713DD37009E8292 /* RockThisTown.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,28 +94,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A6206AAF1713DD37009E8292 /* LocalMusic2 */ = {
+		A6206AAF1713DD37009E8292 /* RockThisTown */ = {
 			isa = PBXGroup;
 			children = (
 				A6206AB81713DD37009E8292 /* MusicAppDelegate.h */,
-				A6206AB91713DD37009E8292 /* MusicAppDelegate.m */,
+				A6206AD01713DFF0009E8292 /* MusicDataController.m */,
+				A6206ACF1713DFF0009E8292 /* MusicDataController.h */,
+				A6206AD21713E094009E8292 /* LocalEvent.h */,
+				A6206AD31713E094009E8292 /* LocalEvent.m */,
 				A6206AC11713DD38009E8292 /* MainStoryboard.storyboard */,
+				A6837B66172F0AD5009B27A7 /* HomePageViewController.h */,
+				A6837B67172F0AD5009B27A7 /* HomePageViewController.m */,
+				A6206AB91713DD37009E8292 /* MusicAppDelegate.m */,
 				A6206AC41713DD38009E8292 /* MusicMasterViewController.h */,
 				A6206AC51713DD38009E8292 /* MusicMasterViewController.m */,
 				A6206AC71713DD38009E8292 /* MusicDetailViewController.h */,
 				A6206AC81713DD38009E8292 /* MusicDetailViewController.m */,
 				A6206AB01713DD37009E8292 /* Supporting Files */,
 			);
+			name = RockThisTown;
 			path = LocalMusic2;
 			sourceTree = "<group>";
 		};
 		A6206AB01713DD37009E8292 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A6206AB11713DD37009E8292 /* LocalMusic2-Info.plist */,
+				A6837B6B1730A24F009B27A7 /* concertThin.png */,
+				A6206AB11713DD37009E8292 /* RockThisTown-Info.plist */,
 				A6206AB21713DD37009E8292 /* InfoPlist.strings */,
 				A6206AB51713DD37009E8292 /* main.m */,
-				A6206AB71713DD37009E8292 /* LocalMusic2-Prefix.pch */,
+				A6206AB71713DD37009E8292 /* RockThisTown-Prefix.pch */,
 				A6206ABB1713DD37009E8292 /* Default.png */,
 				A6206ABD1713DD37009E8292 /* Default@2x.png */,
 				A6206ABF1713DD38009E8292 /* Default-568h@2x.png */,
@@ -115,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6206AA51713DD37009E8292 /* LocalMusic2 */ = {
+		A6206AA51713DD37009E8292 /* RockThisTown */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6206ACC1713DD38009E8292 /* Build configuration list for PBXNativeTarget "LocalMusic2" */;
+			buildConfigurationList = A6206ACC1713DD38009E8292 /* Build configuration list for PBXNativeTarget "RockThisTown" */;
 			buildPhases = (
 				A6206AA21713DD37009E8292 /* Sources */,
 				A6206AA31713DD37009E8292 /* Frameworks */,
@@ -127,9 +146,9 @@
 			);
 			dependencies = (
 			);
-			name = LocalMusic2;
+			name = RockThisTown;
 			productName = LocalMusic2;
-			productReference = A6206AA61713DD37009E8292 /* LocalMusic2.app */;
+			productReference = A6206AA61713DD37009E8292 /* RockThisTown.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +161,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Elizabeth Chaddock";
 			};
-			buildConfigurationList = A6206AA11713DD37009E8292 /* Build configuration list for PBXProject "LocalMusic2" */;
+			buildConfigurationList = A6206AA11713DD37009E8292 /* Build configuration list for PBXProject "RockThisTown" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -154,7 +173,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6206AA51713DD37009E8292 /* LocalMusic2 */,
+				A6206AA51713DD37009E8292 /* RockThisTown */,
 			);
 		};
 /* End PBXProject section */
@@ -169,6 +188,7 @@
 				A6206ABE1713DD38009E8292 /* Default@2x.png in Resources */,
 				A6206AC01713DD38009E8292 /* Default-568h@2x.png in Resources */,
 				A6206AC31713DD38009E8292 /* MainStoryboard.storyboard in Resources */,
+				A6837B6C1730A24F009B27A7 /* concertThin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +203,9 @@
 				A6206ABA1713DD37009E8292 /* MusicAppDelegate.m in Sources */,
 				A6206AC61713DD38009E8292 /* MusicMasterViewController.m in Sources */,
 				A6206AC91713DD38009E8292 /* MusicDetailViewController.m in Sources */,
+				A6206AD11713DFF0009E8292 /* MusicDataController.m in Sources */,
+				A6206AD41713E094009E8292 /* LocalEvent.m in Sources */,
+				A6837B68172F0AD5009B27A7 /* HomePageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +291,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LocalMusic2/LocalMusic2-Prefix.pch";
-				INFOPLIST_FILE = "LocalMusic2/LocalMusic2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LocalMusic2/RockThisTown-Prefix.pch";
+				INFOPLIST_FILE = "LocalMusic2/RockThisTown-Info.plist";
+				PRODUCT_NAME = RockThisTown;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -279,9 +302,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LocalMusic2/LocalMusic2-Prefix.pch";
-				INFOPLIST_FILE = "LocalMusic2/LocalMusic2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LocalMusic2/RockThisTown-Prefix.pch";
+				INFOPLIST_FILE = "LocalMusic2/RockThisTown-Info.plist";
+				PRODUCT_NAME = RockThisTown;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -289,7 +312,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6206AA11713DD37009E8292 /* Build configuration list for PBXProject "LocalMusic2" */ = {
+		A6206AA11713DD37009E8292 /* Build configuration list for PBXProject "RockThisTown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6206ACA1713DD38009E8292 /* Debug */,
@@ -298,13 +321,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6206ACC1713DD38009E8292 /* Build configuration list for PBXNativeTarget "LocalMusic2" */ = {
+		A6206ACC1713DD38009E8292 /* Build configuration list for PBXNativeTarget "RockThisTown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6206ACD1713DD38009E8292 /* Debug */,
 				A6206ACE1713DD38009E8292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
