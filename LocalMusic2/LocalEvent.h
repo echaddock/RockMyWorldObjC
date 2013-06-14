@@ -11,6 +11,7 @@
 @interface LocalEvent : NSObject
 @property (nonatomic, copy) NSString *bandName;
 @property (nonatomic, copy) NSString *location;
+@property (nonatomic, copy) NSString * url;
 @property (nonatomic, strong) NSDate *date;
--(id)initWithName:(NSString *)name location:(NSString *)location date:(NSDate *)date;
+-(id)initWithName:(NSString *)name location:(NSString *)location date:(NSDate *)date url: (NSString *)url;
 @end

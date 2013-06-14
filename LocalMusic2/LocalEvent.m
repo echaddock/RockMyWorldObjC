@@ -9,12 +9,13 @@
 #import "LocalEvent.h"
 
 @implementation LocalEvent
--(id)initWithName:(NSString *)name location:(NSString *)location date:(NSDate *)date {
+-(id)initWithName:(NSString *)name location:(NSString *)location date:(NSDate *)date url:(NSString *)url {
     self = [super init];
     if(self) {
         _bandName = name;
         _location = location;
         _date = date;
+        _url = url;
         return self;
     }
     return nil;

@@ -24,10 +24,19 @@
 {
     
     [super viewDidLoad];
-    NSLog(@"text is now %@", self.artistName); //PASS TO DATA CONTROLLER! IF POSSIBLE
 
-    self.navigationItem.rightBarButtonItem.accessibilityHint = @"Adds a new event";
-    self.dataController = [[MusicDataController alloc] initWithString: self.artistName];
+    NSString* URL = @"";
+    if(self.artistName != NULL ){
+        URL = [@"http://127.0.0.1:5000/search/" stringByAppendingString: self.artistName];
+    }
+    else if([self.genreList count] == 0){
+        URL = @"http://127.0.0.1:5000/search/";
+    }
+    else { //term search
+        NSString *genres = [self.genreList componentsJoinedByString:@","];
+        URL = [@"http://127.0.0.1:5000/genre/" stringByAppendingString: genres];
+    }
+    self.dataController = [[MusicDataController alloc] initWithString: URL];
     [self.navigationController setNavigationBarHidden:NO];
     self.navigationController.navigationBar.tintColor = [UIColor blackColor];
 }

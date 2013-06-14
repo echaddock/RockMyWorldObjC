@@ -24,7 +24,7 @@
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter artist name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yEE-mA-PMF">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="207" id="sMe-az-Vqd"/>
+                                    <constraint firstAttribute="width" constant="167" id="uHi-D6-W7g"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
@@ -49,25 +49,80 @@
                                     <segue destination="12" kind="push" identifier="GetEvents" id="VX0-6b-Ibf"/>
                                 </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsMultipleSelection="YES" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="wZ3-YH-NOX">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.33000000000000002" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="231" id="eaM-kA-epO"/>
+                                    <constraint firstAttribute="height" constant="190" id="pwn-dD-raw"/>
+                                </constraints>
+                                <color key="separatorColor" red="0.20000000298023224" green="0.20000000298023224" blue="0.20000000298023224" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell opaque="NO" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Cell" textLabel="BqX-31-MQ1" style="IBUITableViewCellStyleDefault" id="rQg-MZ-35T">
+                                        <rect key="frame" x="0.0" y="22" width="231" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="231" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BqX-31-MQ1">
+                                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
+                                                    <color key="textColor" red="0.28627450980000002" green="0.43921568630000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="mpm-ud-wKE" id="y35-5y-uYT"/>
+                                    <outlet property="delegate" destination="mpm-ud-wKE" id="8ES-7h-OKE"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJz-pq-iOk">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="169" id="pQm-Yg-zvp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Find events for genres">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="12" kind="push" identifier="GetEventsGenres" id="iqg-5I-cvi"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="F4b-4a-SJh" firstAttribute="top" secondItem="SXZ-j7-fG5" secondAttribute="top" constant="136" id="1NN-l5-iUb"/>
-                            <constraint firstItem="kcK-18-Fsj" firstAttribute="leading" secondItem="yEE-mA-PMF" secondAttribute="leading" type="default" id="96A-hx-0VZ"/>
-                            <constraint firstItem="F4b-4a-SJh" firstAttribute="leading" secondItem="SXZ-j7-fG5" secondAttribute="leading" constant="99" id="Que-Fi-siJ"/>
+                            <constraint firstItem="yEE-mA-PMF" firstAttribute="leading" secondItem="SXZ-j7-fG5" secondAttribute="leading" constant="19" id="530-uB-oe2"/>
+                            <constraint firstItem="kcK-18-Fsj" firstAttribute="leading" secondItem="SXZ-j7-fG5" secondAttribute="leading" constant="21" id="Fhb-fc-muO"/>
+                            <constraint firstItem="F4b-4a-SJh" firstAttribute="baseline" secondItem="yEE-mA-PMF" secondAttribute="baseline" type="default" id="MrW-nJ-at7"/>
+                            <constraint firstItem="EJz-pq-iOk" firstAttribute="centerX" secondItem="wZ3-YH-NOX" secondAttribute="centerX" type="default" id="OJL-5e-g1d"/>
+                            <constraint firstAttribute="trailing" secondItem="F4b-4a-SJh" secondAttribute="trailing" constant="13" id="Pw2-oH-VO4"/>
+                            <constraint firstAttribute="bottom" secondItem="EJz-pq-iOk" secondAttribute="bottom" constant="42" id="Zmp-tZ-3Ir"/>
+                            <constraint firstItem="wZ3-YH-NOX" firstAttribute="top" secondItem="SXZ-j7-fG5" secondAttribute="top" constant="164" id="f8d-yc-Lro"/>
                             <constraint firstItem="yEE-mA-PMF" firstAttribute="top" secondItem="kcK-18-Fsj" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="gKQ-Zg-xOm"/>
                             <constraint firstItem="kcK-18-Fsj" firstAttribute="top" secondItem="SXZ-j7-fG5" secondAttribute="top" constant="46" id="iyw-v0-Q9p"/>
-                            <constraint firstItem="yEE-mA-PMF" firstAttribute="centerX" secondItem="SXZ-j7-fG5" secondAttribute="centerX" type="default" id="wta-dC-BYX"/>
+                            <constraint firstItem="EJz-pq-iOk" firstAttribute="centerX" secondItem="SXZ-j7-fG5" secondAttribute="centerX" type="default" id="mIn-RU-0pk"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="lIk-7R-98M"/>
                     <connections>
                         <outlet property="ArtistText" destination="yEE-mA-PMF" id="Fvk-xb-Dnu"/>
+                        <outlet property="artistText" destination="yEE-mA-PMF" id="Ifu-8N-NRl"/>
+                        <outlet property="genreTable" destination="wZ3-YH-NOX" id="tAg-Lw-nYL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lvZ-kz-NYO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-110" y="-81"/>
+            <point key="canvasLocation" x="-164" y="-73"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="11">
@@ -100,7 +155,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="phq-AM-6qj">
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="phq-AM-6qj" propertyAccessControl="none">
                                             <rect key="frame" x="10" y="-1" width="40" height="28"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
@@ -134,7 +189,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="17" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="278" y="-73"/>
+            <point key="canvasLocation" x="256" y="-73"/>
         </scene>
         <!--Music Detail View Controller-->
         <scene sceneID="wUm-sO-ckD">
@@ -241,6 +296,9 @@
                                                     <state key="highlighted">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
+                                                    <connections>
+                                                        <action selector="linkToTickets:" destination="KIV-Mq-NH9" eventType="touchUpInside" id="ieo-aG-61W"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -274,13 +332,14 @@
         <class className="HomePageViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/HomePageViewController.h"/>
             <relationships>
-                <relationship kind="action" name="findEventsAction:forEvent:"/>
                 <relationship kind="outlet" name="artistText" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="genreTable" candidateClass="UITableView"/>
             </relationships>
         </class>
         <class className="MusicDetailViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MusicDetailViewController.h"/>
             <relationships>
+                <relationship kind="action" name="linkToTickets:"/>
                 <relationship kind="outlet" name="bandNameLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="dateLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="locationLabel" candidateClass="UILabel"/>
@@ -288,6 +347,9 @@
         </class>
         <class className="MusicMasterViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MusicMasterViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="activityView" candidateClass="UIActivityIndicatorView"/>
+            </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
@@ -298,4 +360,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="iqg-5I-cvi"/>
+    </inferredMetricsTieBreakers>
 </document>

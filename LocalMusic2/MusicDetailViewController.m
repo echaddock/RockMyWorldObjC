@@ -59,4 +59,7 @@
 }
 
 
+- (IBAction)linkToTickets:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:self.event.url]];
+}
 @end

@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomePageViewController : UIViewController <UITextFieldDelegate>
-@property (weak, nonatomic) IBOutlet UITextField *artistText;
+@interface HomePageViewController : UIViewController <UITextFieldDelegate>;
 
+@property (weak, nonatomic) IBOutlet UITextField *artistText;
 @property (copy, nonatomic) NSString *artistName;
+@property (weak, nonatomic) IBOutlet UITableView *genreTable;
 
 @end

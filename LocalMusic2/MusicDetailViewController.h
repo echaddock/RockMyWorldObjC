@@ -10,6 +10,9 @@
 @class LocalEvent;
 
 @interface MusicDetailViewController : UITableViewController
+
+- (IBAction)linkToTickets:(id)sender;
+
 @property (strong, nonatomic) LocalEvent *event;
 @property (weak, nonatomic) IBOutlet UILabel *bandNameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *locationLabel;

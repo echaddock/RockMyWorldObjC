@@ -9,10 +9,14 @@
 #import <UIKit/UIKit.h>
 @class MusicDataController;
 
-@interface MusicMasterViewController:UITableViewController
-//IBOutlet UILabel* humanReadable;
+@interface MusicMasterViewController:UITableViewController 
+
 @property (strong, nonatomic) MusicDataController *dataController;
-//- (IBAction)done:(UIStoryboardSegue *)segue;
-//- (IBAction)cancel:(UIStoryboardSegue *)segue;
+
 @property (strong, nonatomic) NSString * artistName;
+
+@property (strong, nonatomic) NSMutableArray * genreList;
+
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityView;
+
 @end
