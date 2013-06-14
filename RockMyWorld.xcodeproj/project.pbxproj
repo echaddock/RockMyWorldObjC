@@ -26,14 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A6206AA61713DD37009E8292 /* RockThisTown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockThisTown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6206AA61713DD37009E8292 /* RockMyWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockMyWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6206AA91713DD37009E8292 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A6206AAB1713DD37009E8292 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6206AAD1713DD37009E8292 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A6206AB11713DD37009E8292 /* RockThisTown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RockThisTown-Info.plist"; sourceTree = "<group>"; };
+		A6206AB11713DD37009E8292 /* RockMyWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RockMyWorld-Info.plist"; sourceTree = "<group>"; };
 		A6206AB31713DD37009E8292 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A6206AB51713DD37009E8292 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A6206AB71713DD37009E8292 /* RockThisTown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RockThisTown-Prefix.pch"; sourceTree = "<group>"; };
+		A6206AB71713DD37009E8292 /* RockMyWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RockMyWorld-Prefix.pch"; sourceTree = "<group>"; };
 		A6206ABB1713DD37009E8292 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A6206ABD1713DD37009E8292 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A6206ABF1713DD38009E8292 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		A6206AA71713DD37009E8292 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6206AA61713DD37009E8292 /* RockThisTown.app */,
+				A6206AA61713DD37009E8292 /* RockMyWorld.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,10 +120,10 @@
 			isa = PBXGroup;
 			children = (
 				A6837B6B1730A24F009B27A7 /* concertThin.png */,
-				A6206AB11713DD37009E8292 /* RockThisTown-Info.plist */,
+				A6206AB11713DD37009E8292 /* RockMyWorld-Info.plist */,
 				A6206AB21713DD37009E8292 /* InfoPlist.strings */,
 				A6206AB51713DD37009E8292 /* main.m */,
-				A6206AB71713DD37009E8292 /* RockThisTown-Prefix.pch */,
+				A6206AB71713DD37009E8292 /* RockMyWorld-Prefix.pch */,
 				A6206ABB1713DD37009E8292 /* Default.png */,
 				A6206ABD1713DD37009E8292 /* Default@2x.png */,
 				A6206ABF1713DD38009E8292 /* Default-568h@2x.png */,
@@ -134,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6206AA51713DD37009E8292 /* RockThisTown */ = {
+		A6206AA51713DD37009E8292 /* RockMyWorld */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6206ACC1713DD38009E8292 /* Build configuration list for PBXNativeTarget "RockThisTown" */;
+			buildConfigurationList = A6206ACC1713DD38009E8292 /* Build configuration list for PBXNativeTarget "RockMyWorld" */;
 			buildPhases = (
 				A6206AA21713DD37009E8292 /* Sources */,
 				A6206AA31713DD37009E8292 /* Frameworks */,
@@ -146,9 +146,9 @@
 			);
 			dependencies = (
 			);
-			name = RockThisTown;
+			name = RockMyWorld;
 			productName = LocalMusic2;
-			productReference = A6206AA61713DD37009E8292 /* RockThisTown.app */;
+			productReference = A6206AA61713DD37009E8292 /* RockMyWorld.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -161,7 +161,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Elizabeth Chaddock";
 			};
-			buildConfigurationList = A6206AA11713DD37009E8292 /* Build configuration list for PBXProject "RockThisTown" */;
+			buildConfigurationList = A6206AA11713DD37009E8292 /* Build configuration list for PBXProject "RockMyWorld" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -173,7 +173,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6206AA51713DD37009E8292 /* RockThisTown */,
+				A6206AA51713DD37009E8292 /* RockMyWorld */,
 			);
 		};
 /* End PBXProject section */
@@ -291,9 +291,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LocalMusic2/RockThisTown-Prefix.pch";
-				INFOPLIST_FILE = "LocalMusic2/RockThisTown-Info.plist";
-				PRODUCT_NAME = RockThisTown;
+				GCC_PREFIX_HEADER = "LocalMusic2/RockMyWorld-Prefix.pch";
+				INFOPLIST_FILE = "LocalMusic2/RockMyWorld-Info.plist";
+				PRODUCT_NAME = RockMyWorld;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -302,9 +302,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LocalMusic2/RockThisTown-Prefix.pch";
-				INFOPLIST_FILE = "LocalMusic2/RockThisTown-Info.plist";
-				PRODUCT_NAME = RockThisTown;
+				GCC_PREFIX_HEADER = "LocalMusic2/RockMyWorld-Prefix.pch";
+				INFOPLIST_FILE = "LocalMusic2/RockMyWorld-Info.plist";
+				PRODUCT_NAME = RockMyWorld;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -312,7 +312,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6206AA11713DD37009E8292 /* Build configuration list for PBXProject "RockThisTown" */ = {
+		A6206AA11713DD37009E8292 /* Build configuration list for PBXProject "RockMyWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6206ACA1713DD38009E8292 /* Debug */,
@@ -321,7 +321,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6206ACC1713DD38009E8292 /* Build configuration list for PBXNativeTarget "RockThisTown" */ = {
+		A6206ACC1713DD38009E8292 /* Build configuration list for PBXNativeTarget "RockMyWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6206ACD1713DD38009E8292 /* Debug */,
